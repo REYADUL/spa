@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
+    /* font-family:"Raleway"; */
+    /* line-height: 1.5; */
     padding: 0;
     margin:0;
-    color: #959595;
+    color: #c6c6c6;
     
 }
 .box{
@@ -11,7 +13,7 @@
     /* border: 1px solid greenyellow; */
 }
 #header{
-    background-image: url(./images/);
+    background-image: url(./images/banner-1900x750.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -19,16 +21,31 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.content1{
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 1.092;      
+}
+.content2{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.092;      
+}
 .image-card{
     position:relative;
-    /* width: 300px; */
-    height: 300px;
+    height: 350px;
+    
+ }
+ .team{
+    color: #0f7fef;
+      
  }
  .image-card img{
      /* width: 100%; */
      height: 100%;
      display: block;
  }
+ 
  .overlay{
      height: 100%;
      width: 100%;
@@ -54,3 +71,84 @@
  .image-card:hover .overlay{
      opacity:1;
  }
+
+
+
+ .carousel {
+    position: relative;
+  }
+  
+  .carousel__item {
+    
+    background: grey;
+    /* padding: 1em; */
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+    display: none;
+    
+  }
+  
+  .carousel__item--selected {
+    display: block;
+  }
+  
+  .carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  .overlay1{
+
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     /* top:30%;
+     left: 35%; */
+    
+    /* transform: translate(-30%,-35%); */
+    /* background-color: aqua; */
+  }
+  .text1{
+    color:#ffffff;
+    font-family: 'Cardo', italic;
+   
+    
+    /* font-size: 2rem; */
+    text-align: left;
+   
+    position: absolute;
+    /* top:30%;
+    left: 35%; */
+    
+    /* transform: translate(-30%,-35%); */
+    
+    
+    
+}
+.text2{
+    color:#ffffff;
+    font-family:'Raleway', sans-serif;
+    /* font-size: 0.8rem; */
+}
